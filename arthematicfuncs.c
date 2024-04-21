@@ -3,9 +3,10 @@ int addfunc();
 int subfunc();
 int mulfunc();
 int divfunc();
+int modfunc();
 
 int main() {
-    int add,sub,mul,div,inp1,inp2;
+    int add,sub,mul,div,mod,inp1,inp2;
     
     printf("\n**********Arthemactic Operations*********\n");
     printf("Enter Number 1:");
@@ -18,11 +19,13 @@ int main() {
     sub = subfunc(inp1,inp2);
     mul = mulfunc(inp1,inp2);
     div = divfunc(inp1,inp2);
+    mod = modfunc(inp1,inp2);
 
     printf("The addition of %d and %d : %d\n",inp1,inp2,add);
     printf("The substraction of %d and %d : %d\n",inp1,inp2,sub);
     printf("The multiplication of %d and %d : %d\n",inp1,inp2,mul);
     printf("The division of %d and %d : %d\n",inp1,inp2,div);
+    printf("The modulous of %d and %d : %d\n",inp1,inp2,mod);
    
    
 
@@ -43,4 +46,7 @@ int mulfunc(int1,int2){
 
 int divfunc(int1,int2){
     return (int1/int2);
+}
+int modfunc(int1,int2){
+    return (int1%int2);
 }
