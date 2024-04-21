@@ -8,12 +8,7 @@ int main()
   
     for (i = 1; i < 8; i++)
     {
-        for (j = i; j < 8; j++)
-        {
-            for (k = 8; k > 1; k--)
-            {
-                printf(" ") * k-1;
-            }
+        for (j = i; j < 8; j++){
 
             printf("*") * j;
         }
