@@ -12,7 +12,7 @@ void drivetest(){
     printf("\nAre you Immortal? (y/n)\n");
     scanf("%c",&opt);
     if(opt == 'y'){
-        printf("You can definatelt drive sir..\n");
+        printf("You can definately drive sir..\n");
     }
     else if(opt == 'n'){
         printf("Enter your age:\n");
