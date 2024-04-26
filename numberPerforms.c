@@ -2,7 +2,7 @@
 
 int MenuForOps(int a, int b){
     int c;
-     printf("MENU\n1- Add\n2- Subtract\n3 -Multiply\n4- Divide\nyour choice:");
+     printf("-----x-----x------MENU------x-----x----\n1- Add\n2- Subtract\n3- Multiply\n4- Divide\nyour choice:");
     scanf("%d",&c);
 
     switch(c){
@@ -19,7 +19,7 @@ int MenuForOps(int a, int b){
         printf("The division of %d and %d is %.2f",a,b,(float)a/b);
         break;
         default:
-        printf("INVALID CHOICE..... Try again\n\n");
+        printf("\nINVALID CHOICE..... Try again\n\n");
         MenuForOps(a,b);
         break;
     }
@@ -37,3 +37,4 @@ int main() {
    
     return 0;
 }
+
