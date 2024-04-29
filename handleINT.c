@@ -21,7 +21,7 @@ int main()
             printf("%d ",no);
         }
     }
-    // *****************
+    // ***************
 
 //writing integers in txt ptr;
     ptr = fopen("writeINT.txt","w");
