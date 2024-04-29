@@ -9,7 +9,7 @@ int main() {
 
     for(int i = 0; i<10;i++){
 
-        fprintf(ptr,"%d X %d = %d\n",num,(i+1),num*(i+1));
+        fprintf(ptr,"%d X %d = %d\n",num,i+1,num*(i+1));
     }
     if(ptr == NULL){
         printf("unsuccessful");
