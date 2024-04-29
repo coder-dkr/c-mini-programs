@@ -38,6 +38,7 @@ int main()
     }
 
     printf("\nprinting succwessfull");
+    fclose(ptr);
 
     return 0;
 }

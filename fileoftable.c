@@ -17,6 +17,6 @@ int main() {
     else{
         printf("Printed successfully");
     }
-
+    fclose(ptr);
     return 0;
 }
