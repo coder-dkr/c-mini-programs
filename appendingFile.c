@@ -13,7 +13,7 @@ int main()
         fprintf(ptr, "I am getting appended...");
     }
     return 0;
-
-
+    fclose(ptr);
+ 
 }
 
