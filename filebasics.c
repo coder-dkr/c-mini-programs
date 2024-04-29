@@ -17,7 +17,7 @@ int main() {
 //     }
 //     }
 
-    //writing a character in a file
+    //writing a character in a txt file
     ptr = fopen("godly.txt","w");
     for(int i = 0; i<12;i++){
         fputc('g',ptr);
@@ -26,8 +26,6 @@ int main() {
         fputc(' ',ptr);
 
     }
-
-
     fclose(ptr);   
     return 0;
 }
