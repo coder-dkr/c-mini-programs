@@ -11,11 +11,14 @@ void encrypt(char *c){
 }
 
 int main() {
-    char c[] = "This is heavenly will of great Dhruv";
-   
+    char c[200];
+    printf("Enter the message you want to encrypt: ");
+    fgets(c,200,stdin);
     encrypt(c);
-    printf("Encrypted string is : %s",c);
+    printf("\nEncrypted string is -->  %s",c);
 
     return 0;
 }
+
+
 

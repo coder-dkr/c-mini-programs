@@ -11,11 +11,16 @@ void decrypt(char *c){
 }
 
 int main() {
-    char c[] = "Uijt!jt!ifbwfomz!xjmm!pg!hsfbu!Eisvw";
+    char c[200];
+    printf("Enter the message you want to decrypt: ");
+    fgets(c,200,stdin);
    
     decrypt(c);
-    printf("Decrypted string is : %s",c);
+    printf("\nDecrypted string is -->  %s",c);
 
     return 0;
 }
+
+
+
 
